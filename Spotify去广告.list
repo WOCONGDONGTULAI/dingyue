@@ -1,6 +1,14 @@
 # Spotify去广告
 
-rules:
-  - DOMAIN-KEYWORD,ads.spotify.com,REJECT
-  - DOMAIN-SUFFIX,adservice.google.com,REJECT
-  - DOMAIN-SUFFIX,doubleclick.net,REJECT
+
+USER-AGENT,Spotify*
+DOMAIN-KEYWORD,-spotify-com
+DOMAIN-KEYWORD,spotify.com
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,spotify.com
+
+DOMAIN-KEYWORD,ads.spotify.com,
+DOMAIN-SUFFIX,adservice.google.com,
+DOMAIN-SUFFIX,doubleclick.net,
