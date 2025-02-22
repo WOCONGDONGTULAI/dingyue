@@ -12,3 +12,7 @@ DOMAIN-SUFFIX,spotify.com
 DOMAIN-KEYWORD,ads.spotify.com,
 DOMAIN-SUFFIX,adservice.google.com,
 DOMAIN-SUFFIX,doubleclick.net,
+
+
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotifycdn.net
