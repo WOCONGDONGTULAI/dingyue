@@ -1,0 +1,6 @@
+# Spotify去广告
+
+rules:
+  - DOMAIN-KEYWORD,ads.spotify.com,REJECT
+  - DOMAIN-SUFFIX,adservice.google.com,REJECT
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
