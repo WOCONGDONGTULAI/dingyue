@@ -1,7 +1,7 @@
 # Spotify去广告
 
 
-USER-AGENT,Spotify*
+
 DOMAIN,-spotify-com
 DOMAIN,spotify.com
 DOMAIN,pscdn.co
