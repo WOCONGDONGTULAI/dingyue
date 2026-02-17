@@ -28,3 +28,112 @@ DOMAIN,love6.tv
 DOMAIN,www.yesjav101.com
 DOMAIN,jdbstatic.com
 DOMAIN,airav.io
+
+
+
+# =========================
+# MDCx 专用规则开始
+# =========================
+
+# ===== OpenAI（LLM翻译必须）
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,oaistatic.com,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+
+# ===== JavDB
+DOMAIN-SUFFIX,javdb.com,PROXY
+
+# ===== JavBus
+DOMAIN-SUFFIX,javbus.com,PROXY
+DOMAIN-SUFFIX,javbus.org,PROXY
+
+# ===== DMM
+DOMAIN-SUFFIX,dmm.co.jp,PROXY
+DOMAIN-SUFFIX,dmm.com,PROXY
+DOMAIN-SUFFIX,dmm.jp,PROXY
+
+# ===== 片商官网
+DOMAIN-SUFFIX,ideapocket.com,PROXY
+DOMAIN-SUFFIX,attackers.net,PROXY
+DOMAIN-SUFFIX,s1s1s1.com,PROXY
+DOMAIN-SUFFIX,moodyz.com,PROXY
+DOMAIN-SUFFIX,prestige-av.com,PROXY
+DOMAIN-SUFFIX,mgstage.com,PROXY
+DOMAIN-SUFFIX,venus-av.com,PROXY
+DOMAIN-SUFFIX,gloryquest.tv,PROXY
+DOMAIN-SUFFIX,rookie-av.jp,PROXY
+DOMAIN-SUFFIX,madonna-av.com,PROXY
+DOMAIN-SUFFIX,caribbeancom.com,PROXY
+DOMAIN-SUFFIX,1pondo.tv,PROXY
+DOMAIN-SUFFIX,heyzo.com,PROXY
+
+# ===== ThePornDB
+DOMAIN-SUFFIX,theporndb.net,PROXY
+DOMAIN-SUFFIX,tpdbassets.com,PROXY
+
+# ===== TMDB（封面）
+DOMAIN-SUFFIX,tmdb.org,PROXY
+DOMAIN-SUFFIX,themoviedb.org,PROXY
+DOMAIN-SUFFIX,image.tmdb.org,PROXY
+
+# ===== Fanart
+DOMAIN-SUFFIX,fanart.tv,PROXY
+
+# ===== 图片CDN
+DOMAIN-SUFFIX,cloudfront.net,PROXY
+DOMAIN-SUFFIX,amazonaws.com,PROXY
+DOMAIN-SUFFIX,cdn.discordapp.com,PROXY
+DOMAIN-SUFFIX,discordapp.net,PROXY
+DOMAIN-SUFFIX,imgur.com,PROXY
+DOMAIN-SUFFIX,i.imgur.com,PROXY
+
+# ===== Google 翻译
+DOMAIN-SUFFIX,translate.googleapis.com,PROXY
+DOMAIN-SUFFIX,translate.google.com,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
+DOMAIN-SUFFIX,google.com,PROXY
+
+# ===== Github（MDCx资源）
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
+DOMAIN-SUFFIX,githubassets.com,PROXY
+
+# ===== 字幕资源站（部分刮削会用）
+DOMAIN-SUFFIX,subhd.tv,PROXY
+DOMAIN-SUFFIX,opensubtitles.org,PROXY
+
+# ===== 演员头像
+DOMAIN-SUFFIX,cdn.jsdelivr.net,PROXY
+DOMAIN-SUFFIX,jsdelivr.net,PROXY
+
+# ===== Cloudflare
+DOMAIN-SUFFIX,cloudflare.com,PROXY
+DOMAIN-SUFFIX,workers.dev,PROXY
+
+# =========================
+# MDCx 可直连（推荐）
+# =========================
+
+DOMAIN-SUFFIX,youdao.com,DIRECT
+DOMAIN-SUFFIX,fanyi.youdao.com,DIRECT
+
+# =========================
+# 局域网直连
+# =========================
+
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+
+# =========================
+# 国内直连
+# =========================
+
+GEOIP,CN,DIRECT
+
+# =========================
+# 其他默认代理（推荐）
+# =========================
+
+MATCH,PROXY
