@@ -1,38 +1,29 @@
 # 自用MDCX
 
-DOMAIN,phncdn.com
-
-
-DOMAIN,javdb.com
-DOMAIN,airav.io
-DOMAIN,iqq-tv3.net
+DOMAIN,shturl.cc
+DOMAIN,shturl.c
+DOMAIN,shturl.cc/4
 DOMAIN,avsox.click
 DOMAIN,paycalling.com
-DOMAIN,befreebe.com
+DOMAIN,shturl.cc/Dx
 DOMAIN,javbus.com
 DOMAIN,jav321.com
-DOMAIN,paycalling.com
 DOMAIN,www.jav321.com
 DOMAIN,www.javlibrary.com
 DOMAIN,www.dmm.co.
 DOMAIN,www.mgstage.com
 DOMAIN,hscangku.net
-DOMAIN,cnmdb.net
+DOMAIN,shturl.cc
 DOMAIN,love6.tv
-DOMAIN,www.yesjav101.com
+DOMAIN,shturl.cc/dwW8qwQ
 DOMAIN,www.prestige-av.com
 DOMAIN,gg5.co
-DOMAIN,www.javlibrary.com
-DOMAIN,lulubar.co
-DOMAIN,love6.tv
-DOMAIN,www.yesjav101.com
-DOMAIN,jdbstatic.com
-DOMAIN,airav.io
+DOMAIN,shturl.cc/
 
-#GPT+
+#GPT+后缀规则
 DOMAIN-SUFFIX,prestige-av.com
 DOMAIN-SUFFIX,airav.wiki
-DOMAIN-SUFFIX,lulubar.co
+DOMAIN-SUFFIX,shturl.cc/
 DOMAIN-SUFFIX,love6.tv
 DOMAIN-SUFFIX,hscangku.net
 DOMAIN-SUFFIX,madouqu.com
@@ -41,6 +32,3 @@ DOMAIN-SUFFIX,getchu.com
 DOMAIN-SUFFIX,javlibrary.com
 DOMAIN-SUFFIX,paycalling.com
 DOMAIN-SUFFIX,freejavbt.com
-
-# javdb主域名+全部子域名全部直连，图片不走代理
-DOMAIN-SUFFIX,shturl.cc
