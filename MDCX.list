@@ -41,3 +41,6 @@ DOMAIN-SUFFIX,getchu.com
 DOMAIN-SUFFIX,javlibrary.com
 DOMAIN-SUFFIX,paycalling.com
 DOMAIN-SUFFIX,freejavbt.com
+
+# javdb主域名+全部子域名全部直连，图片不走代理
+DOMAIN-SUFFIX,shturl.cc
