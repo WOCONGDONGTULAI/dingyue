@@ -18,7 +18,7 @@ DOMAIN,www.yesjav101.com
 DOMAIN,www.prestige-av.com
 DOMAIN,gg5.co
 DOMAIN,lulubar.co
-# jdbstatic.com 封面图已改由 MDCX-CDN.list 走直连，此处不再重复代理
+# jdbstatic.com（javdb 封面图）：三个 yaml 里已内联为「直连」，更快；见文末兜底代理规则
 
 #GPT+
 DOMAIN-SUFFIX,prestige-av.com
@@ -43,3 +43,6 @@ DOMAIN,www.javdb.com
 DOMAIN-SUFFIX,jav.app
 DOMAIN-SUFFIX,javbus.com
 DOMAIN,www.javbus.com
+# 封面图兜底：走代理。yaml 里的内联直连规则排在本列表之前会优先命中，
+# 此行仅对 ini 转换等没有内联规则的场景生效
+DOMAIN-SUFFIX,jdbstatic.com

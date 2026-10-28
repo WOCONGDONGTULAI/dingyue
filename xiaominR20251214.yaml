@@ -162,7 +162,8 @@ rules:
   - RULE-SET,xunlei_domain,直连
   - RULE-SET,xiaohongshu_domain,直连
   - RULE-SET,PikPak_domain,🗄️ PikPak
-  - RULE-SET,MDCXCDN,直连
+  # javdb 封面图 c0.jdbstatic.com 未被墙，实测直连 20-70KB/s，走代理仅 8-10KB/s
+  - DOMAIN-SUFFIX,jdbstatic.com,直连
   - RULE-SET,MDCx,🔞 MDCx
   - RULE-SET,Adobe_domain,🦾 Adobe
   - RULE-SET,appleGX,🍎 appleGX
@@ -213,7 +214,6 @@ rule-providers:
   
   appleGX: { <<: *class, url: "https://raw.githubusercontent.com/WOCONGDONGTULAI/dingyue/refs/heads/main/AppleGX.list"}
   MDCx: { <<: *class, url: "https://raw.githubusercontent.com/WOCONGDONGTULAI/dingyue/refs/heads/main/MDCX.list"}
-  MDCXCDN: { <<: *class, url: "https://raw.githubusercontent.com/WOCONGDONGTULAI/dingyue/refs/heads/main/MDCX-CDN.list"}
   
   DTANG: { <<: *class, url: "https://raw.githubusercontent.com/WOCONGDONGTULAI/dingyue/refs/heads/main/DTANG.list"}
   
