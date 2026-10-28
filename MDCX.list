@@ -37,3 +37,14 @@ DOMAIN-SUFFIX,getchu.com
 DOMAIN-SUFFIX,javlibrary.com
 DOMAIN-SUFFIX,paycalling.com
 DOMAIN-SUFFIX,freejavbt.com
+
+#GPT+ JavDB 主站/镜像/接口（2026-10-28 实测可用）
+DOMAIN-SUFFIX,javdb.com
+DOMAIN,www.javdb.com
+DOMAIN-SUFFIX,javdb580.com
+DOMAIN-SUFFIX,javdb575.com
+DOMAIN-SUFFIX,javdb570.com
+DOMAIN,app.javdb580.com
+DOMAIN-SUFFIX,jav.app
+DOMAIN-SUFFIX,javbus.com
+DOMAIN,www.javbus.com

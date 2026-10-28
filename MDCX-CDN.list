@@ -3,3 +3,10 @@ DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,jdbstatic.com
 DOMAIN-SUFFIX,static.shturl.cc
 DOMAIN-SUFFIX,img.shturl.cc
+
+#GPT+ JavDB 静态资源/封面图 CDN
+DOMAIN-SUFFIX,jdbstatic.com
+DOMAIN,c0.jdbstatic.com
+DOMAIN,c1.jdbstatic.com
+DOMAIN,img.jdbstatic.com
+DOMAIN-SUFFIX,jav.app
