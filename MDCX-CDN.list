@@ -1,12 +1,7 @@
-DOMAIN-SUFFIX,shturl.cc
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,jdbstatic.com
-DOMAIN-SUFFIX,static.shturl.cc
-DOMAIN-SUFFIX,img.shturl.cc
-
-#GPT+ JavDB 静态资源/封面图 CDN
+#GPT+ 静态资源 CDN 直连（2026-10-28 实测）
+# 封面图走 c0.jdbstatic.com：代理约 8-10KB/s，直连约 20-70KB/s，故一律直连
+# 此文件需配置为 RULE-SET 指向「直连」，且排在 MDCX.list 之前
 DOMAIN-SUFFIX,jdbstatic.com
 DOMAIN,c0.jdbstatic.com
-DOMAIN,c1.jdbstatic.com
-DOMAIN,img.jdbstatic.com
-DOMAIN-SUFFIX,jav.app
+DOMAIN-SUFFIX,shturl.cc
+DOMAIN-SUFFIX,phncdn.com
