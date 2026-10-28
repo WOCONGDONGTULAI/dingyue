@@ -1,7 +1,9 @@
-#GPT+ 静态资源 CDN 直连（2026-10-28 实测）
-# 封面图走 c0.jdbstatic.com：代理约 8-10KB/s，直连约 20-70KB/s，故一律直连
-# 此文件需配置为 RULE-SET 指向「直连」，且排在 MDCX.list 之前
+#GPT+ 静态资源 CDN：直连（只对已实测验证的域名生效）
+# 2026-10-28 实测 c0.jdbstatic.com：走代理约 8-10KB/s 且抖动大，直连约 20-70KB/s
+# 此规则集须指向「直连」，且排在 MDCX.list 之前（三个 yaml 里已配好）
 DOMAIN-SUFFIX,jdbstatic.com
 DOMAIN,c0.jdbstatic.com
-DOMAIN-SUFFIX,shturl.cc
-DOMAIN-SUFFIX,phncdn.com
+
+# 以下两域名未做实测，暂不直连，仍随 MDCX.list 走代理，避免引入不确定影响
+#DOMAIN-SUFFIX,shturl.cc
+#DOMAIN-SUFFIX,phncdn.com

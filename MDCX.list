@@ -7,10 +7,9 @@ DOMAIN,paycalling.com
 DOMAIN,befreebe.com
 DOMAIN,javbus.com
 DOMAIN,jav321.com
-DOMAIN,paycalling.com
 DOMAIN,www.jav321.com
 DOMAIN,www.javlibrary.com
-DOMAIN,www.dmm.co.
+DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN,www.mgstage.com
 DOMAIN,hscangku.net
 DOMAIN,cnmdb.net
@@ -18,12 +17,8 @@ DOMAIN,love6.tv
 DOMAIN,www.yesjav101.com
 DOMAIN,www.prestige-av.com
 DOMAIN,gg5.co
-DOMAIN,www.javlibrary.com
 DOMAIN,lulubar.co
-DOMAIN,love6.tv
-DOMAIN,www.yesjav101.com
-DOMAIN,jdbstatic.com
-DOMAIN,airav.io
+# jdbstatic.com 封面图已改由 MDCX-CDN.list 走直连，此处不再重复代理
 
 #GPT+
 DOMAIN-SUFFIX,prestige-av.com
