@@ -38,13 +38,13 @@ DOMAIN-SUFFIX,javlibrary.com
 DOMAIN-SUFFIX,paycalling.com
 DOMAIN-SUFFIX,freejavbt.com
 
-#GPT+ JavDB 主站/镜像/接口（2026-10-28 实测可用）
+#GPT+ JavDB 主站/镜像/接口
+# javdbNNN.com 镜像轮换频繁（实测见过 570/575/580，均会失效）
+# 官方仅在 github.com/bdvajstudio/javdb 发布 App、在 t.me/javdbnews 发布通告，不发布域名列表
+# 故此处用 KEYWORD 通配：后续任意新镜像 / app.javdbXXX.com 子域自动命中，无需再改规则
+DOMAIN-KEYWORD,javdb
 DOMAIN-SUFFIX,javdb.com
 DOMAIN,www.javdb.com
-DOMAIN-SUFFIX,javdb580.com
-DOMAIN-SUFFIX,javdb575.com
-DOMAIN-SUFFIX,javdb570.com
-DOMAIN,app.javdb580.com
 DOMAIN-SUFFIX,jav.app
 DOMAIN-SUFFIX,javbus.com
 DOMAIN,www.javbus.com
